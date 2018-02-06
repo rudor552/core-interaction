@@ -1,22 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
 h1 {
-    color: blue;
-    font-family: Futura;
-    font-size: 300%;
+    color: #D8DFE2;
+    font-family: futura;
+    font-size: 150px;
+    position: centered;
 }
-p  {
-    color: red;
-    font-family: courier;
-    font-size: 160%;
+
+p, a {
+    color: #34699A;
+    font-family: futura;
+    font-size: 30px;
 }
-</style>
-</head>
-<body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+nav a:hover {
+  color: #7EA6F4;
+}
 
-</body>
+nav #a1:hover {
+  color: grey;
+}
+
+#a1 {
+  font-size: 20px;
+}
