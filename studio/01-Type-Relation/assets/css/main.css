@@ -1,0 +1,18 @@
+body {
+  font-family: futura;
+}
+
+h1 {
+  font-size: 50px;
+  color: #5FB9B0;
+}
+
+p {
+  font-size: 20px;
+  color: ##5585B5
+;
+}
+
+nav h1:hover {
+  color: #EEEEEE;
+}
