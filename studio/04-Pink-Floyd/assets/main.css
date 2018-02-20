@@ -1,5 +1,5 @@
 html{
-  background-color: #8C999A;
+  background-color: #F1A3C5;
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
 
   body {
   font-family: futura;
-  color: #AE2A2F;
+  color: #22313F;
   display: block;
   height: 350px;
   width: 700px;
@@ -25,14 +25,10 @@ nav h1:hover {
 }
 
 a {
-  color: #620808;
+  color: #34495E;
 }
 
 p {
     column-count: 2;
     font-weight: 400;
 }
-
-.highlight { color: red} .lowlight { color: #000000 }
-
-.highlight-2 { color: blue} .lowlight { color: #000000 }
