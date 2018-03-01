@@ -1,0 +1,123 @@
+.container {
+  width: 900px;
+  height:900px;
+  background-color: #62AF9E;
+  position: relative;
+}
+
+.triangle-1 {
+  width: 0;
+	height: 0;
+	border-left: 398.5px solid transparent;
+	border-right: 398.5px solid transparent;
+	border-bottom: 900px solid #374C5A;
+  position: absolute;
+}
+
+.triangle-2 {
+  width: 0;
+	height: 0;
+	border-left: 270.5px solid transparent;
+	border-right: 270.5px solid transparent;
+	border-top: 449px solid #CCCCCC;
+  position: absolute;
+  top: 268px;
+  left: 359px;
+  z-index: 11;
+}
+
+.triangle-3 {
+  width: 0;
+	height: 0;
+	border-left: 161px solid transparent;
+	border-right: 161px solid transparent;
+	border-bottom: 268px solid #D77F4D;
+  position: absolute;
+  top: 268px;
+  left: 161px;
+}
+
+.triangle-4 {
+  width: 0;
+	height: 0;
+	border-left: 161px solid transparent;
+	border-right: 161px solid transparent;
+	border-bottom: 268px solid #EBCB63;
+  position: absolute;
+  bottom: 96px;
+  left: 0;
+  z-index: 12;
+}
+
+.rectangle-1 {
+	width: 578px;
+	height: 31px;
+	background-color: #E44A59;
+  top: 536px;
+  right: 0;
+  position: absolute;
+  z-index: 12;
+}
+.rectangle-2 {
+	width: 900px;
+	height: 96px;
+	background-color: #E44A59;
+  top: 640px;
+  right: 0;
+  position: absolute;
+  z-index: 10;
+}
+
+.rectangle-3 {
+	width: 425px;
+	height: 96px;
+	background-color: #D77F4D;
+  top: 640px;
+  right: 0;
+  position: absolute;
+  z-index: 13;
+  top: 804px;
+  left: 322px;
+}
+
+.rectangle-3 {
+	width: 425px;
+	height: 96px;
+	background-color: #D77F4D;
+  top: 640px;
+  right: 0;
+  position: absolute;
+  z-index: 13;
+  top: 804px;
+  left: 322px;
+}
+
+.rectangle-3 {
+	width: 425px;
+	height: 96px;
+	background-color: #D77F4D;
+  position: absolute;
+  z-index: 13;
+  top: 804px;
+  left: 322px;
+}
+
+.rectangle-4 {
+	width: 70px;
+	height: 260px;
+	background-color: #636263;
+  position: absolute;
+  z-index: 13;
+  top: 640px;
+  right: 83px;
+}
+
+.circle {
+  width: 181px;
+  height: 181px;
+  border-radius: 50%;
+  background-color: #EBCB63;
+  position: absolute;
+  top: 355px;
+  left: 231px;
+}
