@@ -1,0 +1,89 @@
+.container {
+  width: 900px;
+  height:900px;
+  background-color: #E37B40;
+  position: relative;
+}
+
+.rectangle-1 {
+	width: 400px;
+	height: 400px;
+	background-color: #324D5C;
+  position: absolute;
+  top: 99px;
+  left: 100px;
+}
+
+.rectangle-2 {
+	width: 100px;
+	height: 200px;
+	background-color: #CCCCCC;
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+.rectangle-3 {
+	width: 100px;
+	height: 700px;
+	background-color: #F0CB4D;
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+.rectangle-4 {
+	width: 600px;
+	height: 100px;
+	background-color: #F0CB4D;
+  position: absolute;
+  top: 700px;
+  left: 100px;
+}
+
+.rectangle-5 {
+	width: 600px;
+	height: 75px;
+	background-color: #F0CB4D;
+  position: absolute;
+  top: 600px;
+  left: 100px;
+}
+
+.rectangle-6 {
+	width: 600px;
+	height: 100px;
+	background-color: #CCCCCC;
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+
+.rectangle-7 {
+	width: 100px;
+	height: 100px;
+	background-color: #F0CB4D;
+  position: absolute;
+  top: 400px;
+  right: 200px;
+}
+
+.rectangle-8 {
+	width: 100px;
+	height: 25px;
+	background-color: #324D5C;
+  position: absolute;
+  top: 675px;
+  right: 100px;
+}
+
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #D8D8D8;
+  position: absolute;
+  top: 148px;
+  left: 150px;
+}

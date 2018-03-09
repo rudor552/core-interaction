@@ -1,0 +1,45 @@
+* {box-sizing: border-box;}
+
+body{
+  margin: 0;
+  background-color: white;
+}
+
+.bananasplit{
+  height: 100%;
+  width: 100%;
+}
+
+.bdaycake{
+  height: 75%;
+  width: 75%;
+  display: none;
+}
+
+.icecreamcone{
+  height: 50%;
+  width: 50%;
+  display: none;
+}
+
+
+@media (max-width: 1000px) {
+  .bdaycake{
+    display: block;
+  }
+
+  .bananasplit{
+    display: none;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .icecreamcone{
+    display: block;
+  }
+
+  .bdaycake{
+    display: none;
+  }
+}
