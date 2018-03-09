@@ -1,0 +1,37 @@
+h1 {
+    color: #FFC468;
+    font-size: 225px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+a {
+    color: #EA5455;
+    font-family: futura;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+  color: #7EA6F4;
+}
+
+nav #a1:hover {
+  color: grey;
+}
+
+#a1 {
+  font-size: 20px;
+}
+
+.pages a:hover {
+  color: white;
+}
+
+h1:hover {
+  color: #FFF7CA;
+}

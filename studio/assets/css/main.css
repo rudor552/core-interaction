@@ -1,18 +1,22 @@
 h1 {
-    color: #D8DFE2;
-    font-family: futura;
-    font-size: 150px;
+    color: #878ECD;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 230px;
     position: centered;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 60px;
 }
 
 p, a {
-    color: #34699A;
+    color: #B9BBDF;
     font-family: futura;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 nav a:hover {
-  color: #7EA6F4;
+  color: #6EBAA7;
 }
 
 nav #a1:hover {
@@ -21,4 +25,14 @@ nav #a1:hover {
 
 #a1 {
   font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.pages {
+  position: relative;
+  text-align: center;
+}
+
+h1:hover {
+  color: white;
 }
