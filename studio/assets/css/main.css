@@ -52,6 +52,10 @@ section {
   padding-left: 1300px;
 }
 
+nav #about-link:hover {
+  color: grey;
+}
+
 img {
   width: 600px;
 }
