@@ -1,23 +1,22 @@
 h1 {
-    color: #878ECD;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 230px;
-    position: centered;
-    margin-bottom: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 60px;
+    color: black;
+    font-family: blenny, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    position: absolute;
+    margin-left: 0;
+    padding-left: 130px;
+    margin-top: 0;
 }
 
-p, a {
-    color: #B9BBDF;
+p {
+    color: black;
     font-family: futura;
+    font-style: light;
     font-size: 20px;
 }
 
-nav a:hover {
-  color: #6EBAA7;
-}
 
 nav #a1:hover {
   color: grey;
@@ -25,14 +24,37 @@ nav #a1:hover {
 
 #a1 {
   font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: black;
 }
 
 .pages {
   position: relative;
-  text-align: center;
 }
 
-h1:hover {
+section {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: inline;
+}
+
+#about-link {
+  font-family: blenny, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+  padding-left: 1300px;
+}
+
+img {
+  width: 600px;
+}
+
+nav img.hover {
   color: white;
 }
