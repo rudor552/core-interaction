@@ -27,7 +27,28 @@ nav h1:hover {
   color: #FFEFA1;
 }
 
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 
+.images{
+  display: block;
+  flex: 0 0 30%;
+}
+
+
+.text{
+  display: block;
+  flex: 0 0 30%;
+  margin-left: -400px;
+}
+
+.beat{
+  margin-bottom: 100px;
+}
+/*
 #home {
   font-size: 30px;
   font-family: futura-pt, sans-serif;
@@ -51,7 +72,7 @@ nav h1:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-}
+} */
 
 /* .firstcharacter {
   color: black;
