@@ -1,0 +1,11 @@
+h1 {
+    color: black;
+    font-family: blenny, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0;
+    transition: all 500ms ease;
+}
