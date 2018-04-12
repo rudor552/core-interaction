@@ -1,0 +1,65 @@
+h1 {
+    color: black;
+    font-family: blenny, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    position: absolute;
+    margin-left: 0;
+    padding-left: 130px;
+    margin-top: 0;
+}
+
+p {
+    color: black;
+    font-family: futura;
+    font-style: light;
+    font-size: 20px;
+}
+
+
+nav #a1:hover {
+  color: grey;
+}
+
+#a1 {
+  font-size: 20px;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+}
+
+.pages {
+  position: relative;
+}
+
+section {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: inline;
+}
+
+#about-link {
+  font-family: blenny, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+  padding-left: 1300px;
+}
+
+nav #about-link:hover {
+  color: grey;
+}
+
+img {
+  width: 600px;
+}
+
+nav img.hover {
+  color: white;
+}
