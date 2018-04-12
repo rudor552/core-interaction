@@ -33,20 +33,21 @@ nav h1:hover {
   align-items: flex-start;
 }
 
-.images{
-  display: block;
-  flex: 0 0 30%;
-}
-
-
 .text{
   display: block;
   flex: 0 0 30%;
-  margin-left: -400px;
+  margin-left: 800px;
+  margin-right: 200px;
 }
 
-.beat{
+.img1{
   margin-bottom: 100px;
+}
+
+.beat {
+  display: block;
+  flex: 0 0 30%;
+  position: absolute;
 }
 /*
 #home {

@@ -1,24 +1,24 @@
-var blocks = Array.from(document.querySelectorAll('.block'))
+var beats = Array.from(document.querySelectorAll('.beat'))
 
-blocks.forEach(function(block) {
-	block.isActive = false
-	block.addEventListener('mousedown', function() {
-		 block.isActive = true
+beats.forEach(function(beat) {
+	beat.isActive = false
+	beat.addEventListener('mousedown', function() {
+		 beat.isActive = true
 	})
 
 })
 
 window.addEventListener('mouseup', function() {
-	blocks.forEach(function(block) {
-		block.isActive = false
+	beats.forEach(function(beat) {
+		beat.isActive = false
 	})
 })
 
 window.addEventListener('mousemove', function(event) {
-	blocks.forEach(function(block) {
-		if (block.isActive) {
-			block.style.top = event.pageY - 50 + 'px'
-			block.style.left = event.pageX - 50 + 'px'
+	beats.forEach(function(beat) {
+		if (beat.isActive) {
+			beat.style.top = event.pageY - 50 + 'px'
+			beat.style.left = event.pageX - 50 + 'px'
 		}
 	})
 })
