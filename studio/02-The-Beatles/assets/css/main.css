@@ -15,7 +15,7 @@ h1 {
     margin-bottom: 0;
 }
 
-body {
+p {
   color: black;
   font-family: futura-pt, sans-serif;
   font-style: normal;
@@ -28,31 +28,33 @@ nav h1:hover {
   color: #FFEFA1;
 }
 
-.wrapper{
-  display: flex;
+.columns {
+    display: flex;
+}
 
-  flex-direction: column;
+.wrapper {
+    flex: 50%;
 }
 
 .text{
   display: flex;
-  /* flex: 0 0 30%; */
+  flex: 0 0 30%;
 }
 
 .img1{
   margin-bottom: 50px;
   width: 100%;
   height: 100%;
-  max-width: 800px;
-  max-height: 800px;
+  max-width: 700px;
+  max-height: 700px;
 }
 
 .img2{
   margin-bottom: 100px;
   width: 100%;
   height: 100%;
-  max-width: 800px;
-  max-height: 800px;
+  max-width: 700px;
+  max-height: 700px;
 }
 
 .beat {
