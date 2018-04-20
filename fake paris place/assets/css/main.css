@@ -1,0 +1,38 @@
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-style: normal;
+  transition: all 500ms ease;
+  color: #1A2639;
+  font-size: 1000%;
+  margin-top: 250px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h1:hover {
+  color: #8D3434;
+}
+
+h2 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 300%;
+  text-align: center;
+  font-weight: 400i;
+  color: #8D3434;
+
+}
+
+h2:hover {
+  color: red;
+}
+
+p {
+  font-family: 'Quattrocento', serif;
+  font-size: 100%;
+  text-align: center;
+}
+
+p:hover {
+  color: white;
+}
+/* #C24D2C */
