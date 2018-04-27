@@ -61,11 +61,27 @@ nav #about-link:hover {
 
 img {
   width: 600px;
+  position: relative;
 }
 
-
-.beatles {
+.beatles-one {
+  position: absolute;
   padding-left: 175px;
+  top: 560px;
+  left: 150px;
+}
+
+.beatles-two {
+  position: absolute;
+  padding-left: 175px;
+  top: 560px;
+  left: 150px;
+  opacity: 0;
+}
+
+.beatles-two:hover {
+  position: absolute;
+  opacity: 1;
 }
 
 .led {
