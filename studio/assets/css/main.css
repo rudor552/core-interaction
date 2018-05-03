@@ -64,6 +64,26 @@ img {
   position: relative;
 }
 
+.beach-one {
+  position: absolute;
+  padding-left: 0px;
+  top: 250px;
+  left: 0px;
+}
+
+.beach-two {
+  position: absolute;
+  padding-left: 0px;
+  top: 250px;
+  left: 0px;
+  opacity: 0;
+}
+
+.beach-two:hover {
+  position: absolute;
+  opacity: 1;
+}
+
 .beatles-one {
   position: absolute;
   padding-left: 175px;
@@ -84,24 +104,164 @@ img {
   opacity: 1;
 }
 
-.led {
-  padding-left: 650px;
-}
-
-.pink {
+.zeppelin-one {
+  position: absolute;
   padding-left: 300px;
+  top: 975px;
+  left: 315px;
 }
 
-.stones {
-  padding-left: 800px;
+.zeppelin-two {
+  position: absolute;
+  padding-left: 300px;
+  top: 975px;
+  left: 315px;
+  opacity: 0;
 }
 
-.who {
-  padding-left: 600px;
+.zeppelin-two:hover {
+  position: absolute;
+  opacity: 1;
 }
 
-.queen {
-  padding-left: 200px;
+.pink-one {
+  position: absolute;
+  padding-left: 435px;
+  top: 1310px;
+  left: 315px;
+}
+
+.pink-two {
+  position: absolute;
+  padding-left: 435px;
+  top: 1310px;
+  left: 315px;
+  opacity: 0;
+}
+
+.pink-two:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.stones-one {
+  position: absolute;
+  padding-left: 220px;
+  top: 1650px;
+  left: 315px;
+}
+
+.stones-two {
+  position: absolute;
+  padding-left: 220px;
+  top: 1650px;
+  left: 315px;
+  opacity: 0;
+}
+
+.stones-two:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.who-one {
+  position: absolute;
+  padding-left: 0;
+  top: 2070px;
+  left: 150px;
+}
+
+.who-two {
+  position: absolute;
+  padding-left: 0;
+  top: 2070px;
+  left: 150px;
+  opacity: 0;
+}
+
+.who-two:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.queen-one {
+  position: absolute;
+  padding-left: 515px;
+  top: 2500px;
+  left: 150px;
+}
+
+.queen-two {
+  position: absolute;
+  padding-left: 515px;
+  top: 2500px;
+  left: 150px;
+  opacity: 0;
+}
+
+.queen-two:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.journey-one {
+  position: absolute;
+  padding-left: 300px;
+  top: 2900px;
+  left: 150px;
+}
+
+.journey-two {
+  position: absolute;
+  padding-left: 3px;
+  top: 2900px;
+  left: 150px;
+  opacity: 0;
+}
+
+.journey-two:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.doors-one {
+  position: absolute;
+  padding-left: 300px;
+  top: 3380px;
+  left: 40px;
+}
+
+.doors-two {
+  position: absolute;
+  padding-left: 300px;
+  top: 3380px;
+  left: 40px;
+  opacity: 0;
+}
+
+.doors-two:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.grateful-one {
+  position: absolute;
+  padding-left: 300px;
+  top: 3798px;
+  left: 530px;
+}
+
+.grateful-two {
+  position: absolute;
+  padding-left: 300px;
+  top: 3798px;
+  left: 530px;
+  opacity: 0;
+}
+
+.grateful-two:hover {
+  position: absolute;
+  opacity: 1;
 }
 
 img:hover {
@@ -124,3 +284,16 @@ img:hover {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+
+
+/* img {
+  height: 100%;
+  width: 100%;
+}
+
+
+@media (max-width: 460px) {
+  img {
+    display: block;
+  } */

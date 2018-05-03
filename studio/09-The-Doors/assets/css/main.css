@@ -1,0 +1,95 @@
+html{
+  background-color: white;
+}
+
+h1 {
+    color: black;
+    font-family: blenny, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0;
+    transition: all 500ms ease;
+}
+
+body {
+  color: black;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  display: block;
+  font-size: 25px;
+}
+
+nav h1:hover {
+  color: #5DA0A2;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.images{
+  display: block;
+  flex: 0 0 30%;
+}
+
+
+.text{
+  display: block;
+  flex: 0 0 30%;
+  margin-left: -400px;
+}
+
+.beat{
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+
+nav a:hover {
+  color: red;
+}
+/*
+#home {
+  font-size: 30px;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+}
+
+#body-columns {
+  column-count: 2;
+}
+
+#text {
+  padding-right: 250px;
+  margin-left: 0;
+}
+
+.block {
+	width: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+} */
+
+/* .firstcharacter {
+  color: black;
+  float: left;
+  font-family: jaf-lapture-display, serif;
+  font-style: normal;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+} */
