@@ -89,6 +89,52 @@ h2 {
   color: #FFEFA1;
 }
 
+.nav-item {
+  color: #FFEFA1;
+  text-align: center;
+  font-family: blenny, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200%;
+  transition: 3s
+}
+
+.lyrics {
+  color: grey;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 100%;
+}
+
+div {
+  display: block;
+}
+
+#title, #artist {
+  font-family: futura;
+  font-size: 100%;
+  margin: 40px;
+}
+
+#header {
+  color: #FFEFA1;
+  text-align: center;
+  font-family: blenny, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200%;
+}
+
+#lyric-submit {
+  color: #686450;
+  text-align: center;
+  font-family: blenny, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100%;
+  border-radius: 5px;
+}
 /*
 #home {
   font-size: 30px;
