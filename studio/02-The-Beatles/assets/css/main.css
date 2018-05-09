@@ -22,7 +22,7 @@ p {
   font-weight: 300;
   display: block;
   font-size: 25px;
-  margin-right: 200px;
+  /* margin-right: 200px; */
   margin-left: 0;
   margin-top: 0;
 }
@@ -31,36 +31,32 @@ nav h1:hover {
   color: #FFEFA1;
 }
 
-.columns {
-    column-count: 2;
-    column-gap: 30px;
-}
-
-.wrapper {
-    flex: 50%;
-}
 
 .text{
   display: flex;
   flex: 0 0 30%;
 }
 
+.beat img {
+  position: absolute;
+}
+
 .img1{
   margin-bottom: 50px;
   width: 100%;
-  height: 100%;
+  height: auto;
   max-width: 700px;
   max-height: 700px;
-  padding-left: 110px;
 }
 
 .img2{
   margin-bottom: 250px;
   width: 100%;
-  height: 100%;
+  height: auto;
   max-width: 700px;
   max-height: 700px;
-  padding-left: 110px;
+  top: 545px;
+  left: 95px;
 }
 
 h2 {
@@ -88,14 +84,30 @@ h2 {
 #home:hover{
   color: #FFEFA1;
 }
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.nav-item {
+.beat {
+  flex: 0 0 50%;
+  width: 50%;
+}
+
+.text {
+  flex: 0 0 50%;
+  width: 50%;
+}
+
+.lyrics-wrapper {
   color: #FFEFA1;
-  text-align: center;
+  /* text-align: center; */
   font-family: blenny, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 200%;
+  width: 100%;
+  flex: 0 0 100%;
 }
 
 .lyrics {
@@ -103,8 +115,9 @@ h2 {
   font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 100%;
+  font-size: 60%;
 }
+
 
 #title, #artist {
   font-family: futura;
@@ -132,39 +145,8 @@ h2 {
   border-radius: 5px;
 }
 
-/*
-#home {
-  font-size: 30px;
-  font-family: futura-pt, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  color: black;
-  text-decoration: none;
-}
-
-#body-columns {
-  column-count: 2;
-}
-
-#text {
-  padding-right: 250px;
-  margin-left: 0;
-}
-
-.block {
-	width: 600px;
-	position: absolute;
-	top: 0;
-	left: 0;
-} */
-
-/* .firstcharacter {
-  color: black;
-  float: left;
-  font-family: jaf-lapture-display, serif;
-  font-style: normal;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-} */
+#beat {
+    position: absolute;
+    z-index: 9;
+    cursor: move;
+    }
