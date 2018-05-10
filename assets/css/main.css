@@ -35,3 +35,7 @@ nav #a1:hover {
 h1:hover {
   color: #FFF7CA;
 }
+
+.core {
+  font-size: 12vw;
+}
