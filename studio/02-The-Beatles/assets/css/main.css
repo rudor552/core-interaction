@@ -15,6 +15,14 @@ h1 {
     margin-bottom: 0;
 }
 
+@media (max-device-width: 500px) and (orientation: portrait) {
+  h1 {
+    font-size: 200px;
+  }
+
+}
+
+
 p {
   color: black;
   font-family: futura-pt, sans-serif;

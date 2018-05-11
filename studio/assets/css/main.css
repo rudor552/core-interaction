@@ -39,6 +39,7 @@ section {
   display: inline;
 }
 
+
 #about-link {
   font-family: blenny, sans-serif;
   font-style: normal;
@@ -60,19 +61,37 @@ nav #about-link:hover {
   margin-top: 0;
 }
 
-@media (max-width: 500px) {
-    .beach {
-      position: relative;
-      top: 10px;
-      left: 15px;
-    }
+@media (max-device-width: 500px) and (orientation: portrait) {
+    img {
+      display: none;
+  }
+  .name-beach {
+    font-family: blenny, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    color: orange;
+    text-align: center;
     }
 
-  }
+  .name-beatles {
+      font-family: blenny, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      color: #FFEFA1;
+      text-align: center;
+      }
+
+  a {
+      text-decoration: none;
     }
+    
+  }
 
 .beach-one {
   position: absolute;
+  width: 600px;
   padding-left: 0;
   top: 50px;
   left: 0;
@@ -80,6 +99,7 @@ nav #about-link:hover {
 
 .beach-two {
   position: absolute;
+  width: 600px;
   padding-left: 0;
   top: 50px;
   left: 0;
@@ -93,6 +113,7 @@ nav #about-link:hover {
 
 .beatles-one {
   position: absolute;
+  width: 600px;
   padding-left: 175px;
   top: 360px;
   left: 150px;
@@ -100,6 +121,7 @@ nav #about-link:hover {
 
 .beatles-two {
   position: absolute;
+  width: 600px;
   padding-left: 175px;
   top: 360px;
   left: 150px;
@@ -113,6 +135,7 @@ nav #about-link:hover {
 
 .zeppelin-one {
   position: absolute;
+  width: 600px;
   padding-left: 300px;
   top: 775px;
   left: 315px;
@@ -120,6 +143,7 @@ nav #about-link:hover {
 
 .zeppelin-two {
   position: absolute;
+  width: 600px;
   padding-left: 300px;
   top: 775px;
   left: 315px;
@@ -133,6 +157,7 @@ nav #about-link:hover {
 
 .pink-one {
   position: absolute;
+  width: 600px;
   padding-left: 435px;
   top: 1110px;
   left: 315px;
@@ -140,6 +165,7 @@ nav #about-link:hover {
 
 .pink-two {
   position: absolute;
+  width: 600px;
   padding-left: 435px;
   top: 1110px;
   left: 315px;
@@ -153,6 +179,7 @@ nav #about-link:hover {
 
 .stones-one {
   position: absolute;
+  width: 600px;
   padding-left: 220px;
   top: 1450px;
   left: 315px;
@@ -160,6 +187,7 @@ nav #about-link:hover {
 
 .stones-two {
   position: absolute;
+  width: 600px;
   padding-left: 220px;
   top: 1450px;
   left: 315px;
@@ -173,6 +201,7 @@ nav #about-link:hover {
 
 .who-one {
   position: absolute;
+  width: 600px;
   padding-left: 0;
   top: 1870px;
   left: 150px;
@@ -180,6 +209,7 @@ nav #about-link:hover {
 
 .who-two {
   position: absolute;
+  width: 600px;
   padding-left: 0;
   top: 1870px;
   left: 150px;
@@ -193,6 +223,7 @@ nav #about-link:hover {
 
 .queen-one {
   position: absolute;
+  width: 600px;
   padding-left: 515px;
   top: 2300px;
   left: 150px;
@@ -200,6 +231,7 @@ nav #about-link:hover {
 
 .queen-two {
   position: absolute;
+  width: 600px;
   padding-left: 515px;
   top: 2300px;
   left: 150px;
@@ -213,6 +245,7 @@ nav #about-link:hover {
 
 .journey-one {
   position: absolute;
+  width: 600px;
   padding-left: 300px;
   top: 2700px;
   left: 150px;
@@ -220,6 +253,7 @@ nav #about-link:hover {
 
 .journey-two {
   position: absolute;
+  width: 600px;
   padding-left: 300px;
   top: 2700px;
   left: 150px;
@@ -233,6 +267,7 @@ nav #about-link:hover {
 
 .doors-one {
   position: absolute;
+  width: 600px;
   padding-left: 300px;
   top: 3180px;
   left: 40px;
@@ -240,6 +275,7 @@ nav #about-link:hover {
 
 .doors-two {
   position: absolute;
+  width: 600px;
   padding-left: 300px;
   top: 3180px;
   left: 40px;
@@ -253,6 +289,7 @@ nav #about-link:hover {
 
 .grateful-one {
   position: absolute;
+  width: 600px;
   padding-left: 300px;
   top: 3598px;
   left: 530px;
@@ -260,6 +297,7 @@ nav #about-link:hover {
 
 .grateful-two {
   position: absolute;
+  width: 600px;
   padding-left: 300px;
   top: 3598px;
   left: 530px;
