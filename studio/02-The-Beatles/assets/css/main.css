@@ -17,8 +17,37 @@ h1 {
 
 @media (max-device-width: 500px) and (orientation: portrait) {
   h1 {
-    font-size: 200px;
+    font-size: 85px;
+    color: #FFEFA1;
   }
+
+  .img1 {
+    margin-top: 60px;
+  }
+
+  .img2 {
+    margin-top: 125px;
+  }
+
+  .text {
+    margin-top: 540px;
+    flex-wrap: wrap;
+
+  }
+
+  .lyrics-wrapper {
+    text-align: center;
+    width: 50%;
+  }
+
+  .lyrics {
+    color: grey;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 80%;
+  }
+
 
 }
 
@@ -37,12 +66,6 @@ p {
 
 h1:hover {
   color: #FFEFA1;
-}
-
-
-.text{
-  display: flex;
-  flex: 0 0 30%;
 }
 
 .beat img {
@@ -64,7 +87,6 @@ h1:hover {
   max-width: 700px;
   max-height: 700px;
   top: 545px;
-  left: 95px;
 }
 
 h2 {
@@ -116,6 +138,8 @@ h2 {
   font-size: 200%;
   width: 100%;
   flex: 0 0 100%;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .lyrics {
@@ -123,7 +147,7 @@ h2 {
   font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 60%;
+  font-size: 80%;
 }
 
 

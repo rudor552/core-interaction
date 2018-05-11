@@ -12,6 +12,199 @@ h1 {
     text-align: center;
     margin-top: 0;
     transition: all 500ms ease;
+    margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-device-width: 500px) and (orientation: portrait) {
+  h1 {
+    font-size: 80px;
+    color: blue;
+  }
+
+  .img1 {
+    margin-top: 60px;
+  }
+
+  .text {
+    margin-top: 610px;
+    flex-wrap: wrap;
+
+  }
+
+  .lyrics-wrapper {
+    text-align: center;
+    width: 50%;
+  }
+
+  .lyrics {
+    color: grey;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 80%;
+  }
+
+
+}
+
+
+p {
+  color: black;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  display: block;
+  font-size: 25px;
+  /* margin-right: 200px; */
+  margin-left: 0;
+  margin-top: 0;
+}
+
+h1:hover {
+  color: blue;
+}
+
+.led img {
+  position: absolute;
+}
+
+.led video {
+  position: absolute;
+}
+
+.img1 {
+  margin-bottom: 50px;
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  max-height: 700px;
+}
+
+.vid {
+  margin-top: 160px;
+  margin-bottom: 250px;
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  max-height: 700px;
+  top: 545px;
+}
+
+h2 {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: black;
+}
+
+/* nav song1:hover {
+  color: #FFEFA1;
+} */
+
+#home{
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  transition: all 500ms ease;
+}
+
+#home:hover{
+  color: blue;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.led {
+  flex: 0 0 50%;
+  width: 50%;
+}
+
+.text {
+  flex: 0 0 50%;
+  width: 50%;
+}
+
+.lyrics-wrapper {
+  color: blue;
+  /* text-align: center; */
+  font-family: blenny, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200%;
+  width: 100%;
+  flex: 0 0 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.lyrics {
+  color: grey;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80%;
+}
+
+
+#title, #artist {
+  font-family: futura;
+  font-size: 100%;
+  margin: 40px;
+  border-radius: 5px;
+}
+
+#header {
+  color: blue;
+  text-align: center;
+  font-family: blenny, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200%;
+}
+
+#lyric-submit {
+  color: #686450;
+  text-align: center;
+  font-family: blenny, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100%;
+  border-radius: 5px;
+}
+
+#led {
+    position: absolute;
+    z-index: 9;
+    cursor: move;
+    }
+
+
+
+
+/* html{
+  background-color: white;
+}
+
+h1 {
+    color: black;
+    font-family: blenny, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0;
+    transition: all 500ms ease;
 }
 
 body {
@@ -81,15 +274,4 @@ nav a:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-} */
-
-/* .firstcharacter {
-  color: black;
-  float: left;
-  font-family: jaf-lapture-display, serif;
-  font-style: normal;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
 } */

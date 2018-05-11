@@ -48,7 +48,7 @@ section {
   text-decoration: none;
   color: black;
   position: absolute;
-  top: 20px;
+  top: 0;
   right: 20px;
 }
 
@@ -61,6 +61,49 @@ nav #about-link:hover {
   margin-top: 0;
 }
 
+.name-beach {
+  display: none;
+}
+
+.name-beatles {
+  display: none;
+}
+
+.name-led {
+  display: none;
+}
+
+.name-pink {
+  display: none;
+}
+
+.name-stones {
+  display: none;
+}
+
+.name-who {
+  display: none;
+}
+
+.name-queen {
+  display: none;
+}
+
+.name-journey {
+  display: none;
+}
+
+.name-doors {
+  display: none;
+}
+
+.name-grateful {
+  display: none;
+}
+
+
+
+
 @media (max-device-width: 500px) and (orientation: portrait) {
     img {
       display: none;
@@ -72,6 +115,7 @@ nav #about-link:hover {
     font-size: 35px;
     color: orange;
     text-align: center;
+    display: block;
     }
 
   .name-beatles {
@@ -81,12 +125,99 @@ nav #about-link:hover {
       font-size: 35px;
       color: #FFEFA1;
       text-align: center;
+      display: block;
       }
+
+  .name-led {
+      font-family: blenny, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      color: blue;
+      text-align: center;
+      display: block;
+      }
+
+  .name-pink {
+      font-family: blenny, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      color: pink;
+      text-align: center;
+      display: block;
+      }
+
+  .name-stones {
+      font-family: blenny, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      color: red;
+      text-align: center;
+      display: block;
+      }
+
+  .name-who {
+      font-family: blenny, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      color: green;
+      text-align: center;
+      display: block;
+      }
+
+  .name-queen {
+      font-family: blenny, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      color: purple;
+      text-align: center;
+      display: block;
+      }
+
+  .name-journey {
+      font-family: blenny, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      color: navy;
+      text-align: center;
+      display: block;
+      }
+
+  .name-doors {
+      font-family: blenny, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      color: #5DA0A2;
+      text-align: center;
+      display: block;
+      }
+
+  .name-grateful {
+      font-family: blenny, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      color: #796465;
+      text-align: center;
+      display: block;
+      }
+
+
+
+
+
+
 
   a {
       text-decoration: none;
     }
-    
+
   }
 
 .beach-one {
