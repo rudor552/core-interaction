@@ -56,9 +56,20 @@ nav #about-link:hover {
 }
 
 #images {
-  position: absolute;
+  position: relative;
   margin-top: 0;
 }
+
+@media (max-width: 500px) {
+    .beach {
+      position: relative;
+      top: 10px;
+      left: 15px;
+    }
+    }
+
+  }
+    }
 
 .beach-one {
   position: absolute;
